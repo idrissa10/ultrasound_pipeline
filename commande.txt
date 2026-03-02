@@ -1,0 +1,4 @@
+python ultrasound_pipeline_resize_optionnal.py --input kidney_dataset/ --fan_telemed fan_telemed.json --fan_ge fan_ge.json --threshold 0.55 --workers 4
+
+
+python ultrasound_pipeline_resize_optionnal.py --input kidney_dataset/ --fan_telemed fan_telemed.json --fan_ge fan_ge.json --threshold 0.55 --resize 512 512 --workers 4
